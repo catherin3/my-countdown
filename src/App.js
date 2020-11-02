@@ -50,19 +50,19 @@ function App() {
           <p>{timerDays}</p>
           <p><small>Days</small></p>
         </section>
-        <span>:</span>
+        <span style={{paddingTop: 12, fontSize: 30}}>:</span>
 
         <section>
           <p>{timerHours}</p>
           <p><small>Hours</small></p>
         </section>
-        <span>:</span>
+        <span style={{paddingTop: 12, fontSize: 30}}>:</span>
 
         <section>
           <p>{timerMinutes}</p>
           <p><small>Minutes</small></p>
         </section>
-        <span>:</span>
+        <span style={{paddingTop: 12, fontSize: 30}}>:</span>
 
         <section>
           <p>{timerSeconds}</p>
